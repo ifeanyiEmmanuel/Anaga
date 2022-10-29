@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-yotia&$(&y4!1fv%g!b6v!alt#!nr=z=(v)#g^ayo*9&1dn!#6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['anagaifeanyi.herokuapp.com','127.0.0.1']
 
 
 # Application definition
